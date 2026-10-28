@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أكاديمية جولد ستورم 25 | البوابة الرسمية</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts Cairo -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&display=swap" rel="stylesheet">
+<!-- html2pdf.js for iPhone direct download -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<style>
+body {
+font-family: 'Cairo', sans-serif;
+background: #f4f7fb;
+color: #1e293b;
+line-height: 2.2;
+-webkit-print-color-adjust: exact;
+print-color-adjust: exact;
+}
+.bio-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 1.5rem;
+padding: 2.2rem;
+margin-bottom: 2rem;
+box-shadow: 0 10px 25px -5px rgba(30, 41, 59, 0.03), 0 8px 10px -6px rgba(30, 41, 59, 0.03);
+break-inside: avoid !important;
+page-break-inside: avoid !important;
+}
+.logo-container {
+background: #0f172a;
+border: 3px solid #d4af37;
+box-shadow: 0 10px 25px rgba(212, 175, 55, 0.15);
+width: 140px;
+height: 140px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto 1.5rem auto;
+overflow: hidden;
+flex-direction: column;
+}
+.btn-gold {
+background: linear-gradient(135deg, #d4af37 0%, #b89728 100%);
+color: #ffffff !important;
+font-weight: 800;
+transition: all 0.3s ease;
+box-shadow: 0 4px 12px rgba(212, 175, 55, 0.25);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+cursor: pointer;
+text-decoration: none !important;
+}
+.btn-gold:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 16px rgba(212, 175, 55, 0.4);
+}
+.btn-blue {
+background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+color: #ffffff !important;
+font-weight: 800;
+transition: all 0.3s ease;
+box-shadow: 0 4px 12px rgba(3, 105, 161, 0.25);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+cursor: pointer;
+text-decoration: none !important;
+}
+.btn-blue:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 16px rgba(3, 105, 161, 0.4);
+}
+a {
+color: #0284c7;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+@media print {
+.no-print { display: none !important; }
+body { background: #ffffff !important; color: #1e293b !important; }
+.bio-card {
+border: 1px solid #cbd5e1 !important;
+break-inside: avoid !important;
+page-break-inside: avoid !important;
+margin-bottom: 25px !important;
+padding: 24px !important;
+background: #ffffff !important;
+box-shadow: none !important;
+}
+h1, h2, h3 { break-after: avoid !important; }
+}
+</style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+<div class="max-w-4xl mx-auto mb-6 text-center no-print">
+<button onclick="downloadPDF()" id="downloadBtn" class="btn-blue px-8 py-4 rounded-2xl text-xl w-full md:w-auto shadow-xl">
+<span>📥 تنزيل نسخة PDF للآيفون 13 برو ماكس (عالية الجودة)</span>
+</button>
+</div>
+<div class="max-w-4xl mx-auto space-y-8" id="portalContent">
+<header class="bio-card text-center flex flex-col items-center">
+<div class="logo-container">
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="48" fill="#090d16" stroke="#d4af37" stroke-width="2.5"/>
+<circle cx="50" cy="50" r="38" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="50" y="44" font-family="Cairo, sans-serif" font-weight="900" font-size="32" fill="#d4af37" text-anchor="middle">G</text>
+<text x="50" y="62" font-family="Cairo, sans-serif" font-weight="800" font-size="12" fill="#d4af37" text-anchor="middle" letter-spacing="1">GOLD STORM</text>
+<text x="50" y="76" font-family="Cairo, sans-serif" font-weight="700" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="2">VIP</text>
+</svg>
+</div>
+<h1 class="text-3xl md:text-5xl font-black text-slate-900 mb-3">أكاديمية جولد ستورم 25</h1>
+<p class="text-xl text-sky-700 font-extrabold mb-4">البوابة الرسمية الشاملة للاحتراف في التداول المالي</p>
+<p class="text-slate-700 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto font-bold">
+في عالم التداول المحترف تحت إشراف الخبير المتمسّك بالتميز <span class="text-sky-800 font-black">الأستاذ حسن (خبرة 15 سنة في أسواق المال 👑)</span>. نوفر لك منظومة استثمارية متكاملة تضم توصيات حية، وسطاء مرخصين بحماية قصوى، وبونص إيداع استثنائي.
+</p>
+</header>
+<section class="bio-card border-2 border-red-500/35 bg-red-50/20">
+<h2 class="text-2xl md:text-3xl font-black text-red-600 mb-4 text-center">🚨 تنبيه أمني هام جداً ومفصلي</h2>
+<div class="bg-white p-6 rounded-2xl border border-red-200 space-y-4 text-base md:text-lg text-slate-800 leading-relaxed text-center font-bold">
+<p class="text-red-700">⚠️ الأستاذ حسن وفريقه لا يتواصلون مع أحد شخصياً بشكل عشوائي، ولا يطلبون أي أموال أو إيداعات شخصية تحت أي ظرف من الظروف!</p>
+<p class="text-slate-700 font-semibold">احذروا تماماً من النصابين ومنتحلي الشخصية الذين يتقمصون أسماء الإدارة. كل الإيداعات تتم حصرياً عبر روابط البروكرات الرسمية المعتمدة أدناه فقط.</p>
+</div>
+</section>
+<section class="bio-card">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-6 text-center">📌 محطات التواصل والمواعيد الرسمية</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-lg">
+<div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-center">
+<span class="text-slate-900 font-extrabold block mb-2">📢 قناة التوصيات المجانية وجروب المكالمة اليومية:</span>
+<a href="https://t.me/G4Acc" target="_blank" rel="noopener noreferrer" class="btn-blue px-5 py-2.5 rounded-xl text-sm mt-2">انضم لجروب التليجرام 🚀</a>
+</div>
+<div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-center">
+<span class="text-slate-900 font-extrabold block mb-2">🎥 البث المباشر (تيك توك 1):</span>
+<a href="https://www.tiktok.com/@7e7ek?_r=1&_t=ZS-9Aue619ALL8" target="_blank" rel="noopener noreferrer" class="btn-blue px-5 py-2.5 rounded-xl text-sm mt-2">فتح بث تيك توك 📱</a>
+</div>
+<div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-center md:col-span-2">
+<span class="text-slate-900 font-extrabold block mb-2">💎 بث مباشر تيك توك ع شركة بيو برايم:</span>
+<a href="https://www.tiktok.com/@goldstormx25?_r=1&_t=ZS-9Aue9Z7Q7E8" target="_blank" rel="noopener noreferrer" class="btn-gold px-6 py-3 rounded-xl text-base mt-2">رابط بث بيو برايم الحصري ⚡</a>
+</div>
+</div>
+</section>
+<section class="bio-card">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-6 text-center">👥 مجلس الإدارة والدعم الفني</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="text-4xl mb-3">👑</div>
+<h3 class="font-black text-xl text-slate-900 mb-1">الأستاذ حسن</h3>
+<p class="text-sm text-sky-700 mb-3 font-bold">المشرف العام (خبرة 15 عاماً)</p>
+<a href="https://t.me/Gold_Storm25" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-mono text-base font-extrabold underline">@Gold_Storm25</a>
+</div>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="text-4xl mb-3">👩‍💼</div>
+<h3 class="font-black text-xl text-slate-900 mb-1">المهندسة مريم</h3>
+<p class="text-sm text-sky-700 mb-3 font-bold">مسؤولة التسجيل والتنسيق</p>
+<a href="https://t.me/mryam_37" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-mono text-base font-extrabold underline">@mryam_37</a>
+</div>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="text-4xl mb-3">👩‍⚕️</div>
+<h3 class="font-black text-xl text-slate-900 mb-1">الدكتورة نبأ</h3>
+<p class="text-sm text-sky-700 mb-3 font-bold">توثيق الحسابات والأمان المالي</p>
+<a href="https://t.me/GOLD_Storm26" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-mono text-base font-extrabold underline">@GOLD_Storm26</a>
+</div>
+</div>
+</section>
+<section class="bio-card">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-6 text-center">🚀 وسطاء GOLD STORM المعتمدون وحماية المحافظ</h2>
+<div class="bg-sky-50 border border-sky-200 p-5 rounded-2xl text-sky-900 text-base md:text-lg mb-8 text-center leading-relaxed font-bold">
+⚠️ <strong>تنبيه استراتيجي:</strong> لضمان إدراج حسابك ضمن وكالة الأستاذ حسن والحصول على بونص الإيداع وهدايا الملتزمين، انقر على زر التسجيل أدناه مباشرة!
+</div>
+<div class="space-y-6">
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="flex justify-between items-center mb-3">
+<h3 class="font-black text-xl text-slate-900">🥇 PU PRIME | الخيار الأقوى</h3>
+<span class="bg-sky-100 text-sky-900 text-sm px-3 py-1 rounded-full font-extrabold">سبريد 3.2</span>
+</div>
+<p class="text-base text-slate-700 mb-4 font-semibold">🎁 بونص إيداع 50% حتى $1000 <span class="text-red-700 font-bold">(قابل للخسارة فقط)</span> + جوائز الولاء السيادي</p>
+<div class="flex flex-wrap gap-3">
+<a href="https://www.puprime.net/forex-trading-account/?affid=MjMyMTgyMzg=" target="_blank" rel="noopener noreferrer" class="btn-gold px-5 py-2.5 rounded-xl text-sm">تسجيل العراق وسوريا 🌍</a>
+<a href="https://puvip.co/la-partners/6bxpoPNx" target="_blank" rel="noopener noreferrer" class="btn-blue px-5 py-2.5 rounded-xl text-sm">تسجيل باقي الدول 🌐</a>
+</div>
+</div>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="flex justify-between items-center mb-3">
+<h3 class="font-black text-xl text-slate-900">🥈 VANTAGE | السيولة الأكبر</h3>
+<span class="bg-sky-100 text-sky-900 text-sm px-3 py-1 rounded-full font-extrabold">سبريد 2.9</span>
+</div>
+<p class="text-base text-slate-700 mb-4 font-semibold">🎁 بونص إيداع 150% حتى $1000 <span class="text-emerald-800 font-bold">(قابل للتداول والخسارة)</span></p>
+<a href="https://vigco.co/la-com-inv/Q1Z6ltS8" target="_blank" rel="noopener noreferrer" class="btn-gold px-6 py-2.5 rounded-xl text-sm">التسجيل الفوري في Vantage 🚀</a>
+</div>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="flex justify-between items-center mb-3">
+<h3 class="font-black text-xl text-slate-900">🥉 STARTRADER | التنفيذ الأسرع</h3>
+<span class="bg-sky-100 text-sky-900 text-sm px-3 py-1 rounded-full font-extrabold">سبريد 3.1</span>
+</div>
+<p class="text-base text-slate-700 mb-4 font-semibold">🎁 بونص إيداع 50% حتى $1000 <span class="text-emerald-800 font-bold">(قابل للتداول والخسارة)</span></p>
+<a href="https://www.startrader.com/live-account/?affid=Mjc4MjY1ODM=&ibpRebateCode=Mjc4MjY1ODNTVDEwNDUw" target="_blank" rel="noopener noreferrer" class="btn-gold px-6 py-2.5 rounded-xl text-sm">التسجيل الفوري في Startrader 🚀</a>
+</div>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+<div class="flex justify-between items-center mb-3">
+<h3 class="font-black text-xl text-slate-900">🟣 NEEX | الدعم الفندقي المتميز</h3>
+<span class="bg-sky-100 text-sky-900 text-sm px-3 py-1 rounded-full font-extrabold">سبريد 2.6</span>
+</div>
+<p class="text-base text-slate-700 mb-4 font-semibold">🎁 بونص إيداع 100% حتى $300 <span class="text-emerald-800 font-bold">(قابل للتداول والخسارة)</span></p>
+<a href="https://cp.neex.com/register/index?invitationCode=GXNG6C2G" target="_blank" rel="noopener noreferrer" class="btn-gold px-6 py-2.5 rounded-xl text-sm">التسجيل الفوري في NEEX 🚀</a>
+</div>
+</div>
+</section>
+<section class="bio-card">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-6 text-center">🎓 دورات الأستاذ حسن والتسجيل الاحترافي</h2>
+<div class="space-y-4 text-base md:text-lg text-slate-800 leading-relaxed font-semibold">
+<p>🌟 يا هلا فيك يا بطل! إذا حابب تطور مهاراتك وتتعلم أسرار التداول الاحترافي خطوة بخطوة من الخبير <strong>الأستاذ حسن (خبرة 15 سنة 👑)</strong>، أنت بالمكان الصح تماماً!</p>
+<div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+<h3 class="text-sky-900 font-black text-lg">💡 مميزات دورات الأستاذ حسن:</h3>
+<ul class="list-disc list-inside space-y-1 text-slate-700 font-medium">
+<li>دورات تدريبية شاملة مصممة خصيصاً لتنتقل من الصفر إلى الاحتراف الكامل في فهم تفاصيل السوق.</li>
+<li>بناء عقلية استثمارية قوية وإدارة احترافية لرأس المال.</li>
+<li>اكتساب الخبرة الكاملة لتتمكن مستقبلاً من فتح قناتك الخاصة بالتوصيات وتديرها باحترافية عالية 💰📊.</li>
+</ul>
+</div>
+<p>📩 للحجز ومعرفة التفاصيل، تواصل فوراً مع <strong>المهندسة مريم</strong> عبر تليجرام: <a href="https://t.me/mryam_37" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-extrabold underline">@mryam_37</a></p>
+</div>
+</section>
+<section class="bio-card border-2 border-sky-300">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-4 text-center">⚡ قناة السكالبينج (هدف 100 بيب)</h2>
+<div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4 text-center">
+<p class="text-lg text-slate-800 font-bold">🔥 انضم الآن إلى قناة السكالبينج الحصرية واحصل على صفقات سريعة بدقة عالية!</p>
+<div class="bg-sky-50 p-4 rounded-xl border border-sky-200 text-sky-900 text-base font-extrabold">
+📌 <strong>شروط الانضمام:</strong> تجميع 10 نقاط أو إيداع 500$ تحت وكالتنا الحصرية.
+</div>
+<p class="text-base text-slate-700 font-semibold">تفاصيل السكالبينج كاملة وتفاصيل البوت تجدها هنا فوراً:</p>
+<a href="https://t.me/GoldStorm_25Bot" target="_blank" rel="noopener noreferrer" class="btn-blue px-8 py-3 rounded-xl text-lg">🤖 اضغط هنا لفتح بوت جولد ستورم الآن (@GoldStorm_25Bot)</a>
+</div>
+</section>
+<section class="bio-card border-2 border-amber-500/30">
+<div class="text-center mb-6">
+<span class="bg-amber-100 text-amber-900 px-4 py-1.5 rounded-full text-sm font-black inline-block mb-3">📜 وثيقة رسمية</span>
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-2">شروط وأحكام نسخ الصفقات</h2>
+<p class="text-sky-800 font-extrabold text-base">GOLD STORM | COPY TRADING بإدارة الأستاذ حسن</p>
+</div>
+<div class="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200 space-y-4 text-sm md:text-base text-slate-800 leading-relaxed font-medium">
+<p class="text-slate-900 font-bold">قبل الاشتراك في خدمة نسخ الصفقات، يرجى قراءة الشروط التالية بعناية:</p>
+<div class="space-y-3">
+<p><strong>1. إدارة حساب النسخ:</strong> حساب النسخ سيكون باسم الأستاذ حسن حصراً، لكن تنفيذ الصفقات لن يكون بالضرورة من الأستاذ حسن شخصياً؛ إذ سيتولى التنفيذ شخص مكلّف من قبله.</p>
+<p><strong>2. طبيعة السوق والمخاطر:</strong> سوق الذهب والفوركس ينطوي على مخاطر حقيقية، والربح غير مضمون، ومن الممكن خسارة جزء من رأس المال أو كله.</p>
+<p><strong>3. آلية اختيار الصفقات:</strong> لن يتم نسخ جميع الصفقات أو التوصيات التي تظهر في البث المباشر. سيتم الدخول في الصفقات التي يراها الأستاذ حسن مناسبة وفق تحليله الفني.</p>
+<p><strong>4. الأمانة والمسؤولية:</strong> نسخ الصفقات أمانة ومسؤولية كبيرة، والهدف هو العمل بانضباط واختيار الفرص المدروسة وسعي نحو الأرباح بإدارة مسؤولة.</p>
+<p><strong>5. رأس المال وحجم الصفقات:</strong> رأس المال المخصّص لحساب الأستاذ حسن 500 دولار. نتائج النسخ تتبع إعدادات الحساب ولا يمكن ضمان تطابق النتائج بصورة تامة.</p>
+<p><strong>6. عدم ضمان الأرباح:</strong> لا توجد أرباح يومية أو شهرية مضمونة، والنتائج السابقة لا تضمن النتائج المستقبلية.</p>
+<p><strong>7. حرية الاختيار:</strong> من يجد هذه الشروط مناسبة له ويفهم مخاطر النسخ يمكنه الاشتراك بمحض إرادته.</p>
+</div>
+<div class="border-t border-slate-200 pt-5 mt-5 text-center">
+<p class="text-sky-900 font-extrabold mb-3">إقرار المشترك: أقرّ بأنني قرأت الشروط أعلاه وفهمت أن التداول ينطوي على مخاطر.</p>
+<div class="flex justify-center gap-6 font-extrabold text-base">
+<label class="cursor-pointer flex items-center gap-2"><input type="radio" name="terms" class="accent-sky-600 w-5 h-5"> موافق 👍🏻</label>
+<label class="cursor-pointer flex items-center gap-2"><input type="radio" name="terms" class="accent-sky-600 w-5 h-5"> غير موافق ❌</label>
+</div>
+</div>
+</div>
+</section>
+<section class="bio-card">
+<h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-6 text-center">🛑 أهم الإرشادات وإدارة رأس المال</h2>
+<div class="space-y-4 text-base md:text-lg text-slate-800 leading-relaxed font-semibold">
+<div class="bg-slate-50 p-5 rounded-2xl border border-slate-200">
+<h3 class="text-sky-900 font-black text-lg mb-2">⚖️ القواعد الذهبية للحفاظ على محفظتك:</h3>
+<ul class="list-disc list-inside space-y-2 text-slate-700 font-medium">
+<li><strong>إدارة اللوت بصرامة:</strong> لكل 500$ في حسابك يكون حجم اللوت بحد أقصى 0.01 (حساب 1000$ لوت 0.02 وهكذا).</li>
+<li><strong>الالتزام التام بالخطة:</strong> تجنب العاطفة، الخوف، أو الطمع، وتابع التوصيات بدقة بدون تدخل عشوائي.</li>
+<li><strong>تداول بالمال الفائض:</strong> تذكر دائماً أن التداول ينطوي على مخاطر عالية، ولا تستخدم أموالاً تحتاجها في معيشتك الأساسية.</li>
+</ul>
+</div>
+</div>
+</section>
+<footer class="bio-card text-center space-y-3">
+<h3 class="text-2xl font-black text-slate-900">GOLD STORM ACADEMY 25</h3>
+<p class="text-base text-slate-700 font-bold">«GOLD STORM 25 — شريكك الموثوق نحو القمة والاستقلال المالي بإشراف الأستاذ حسن 💸✨»</p>
+<p class="text-sm text-slate-600 font-semibold">للتسجيل والاستفسار الفوري تواصل مع المهندسة مريم: <a href="https://t.me/mryam_37" target="_blank" rel="noopener noreferrer" class="text-sky-700 underline font-extrabold">@mryam_37</a></p>
+</footer>
+</div>
+<script>
+function downloadPDF() {
+const element = document.getElementById('portalContent');
+const opt = {
+margin:       10,
+filename:     'Gold_Storm_25_Academy.pdf',
+image:        { type: 'jpeg', quality: 0.98 },
+html2canvas:  { scale: 2, useCORS: true, letterRendering: true },
+jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+};
+const btn = document.getElementById('downloadBtn');
+const originalText = btn.innerHTML;
+btn.innerHTML = '<span>⏳ جاري تجهيز وتنزيل ملف الـ PDF...</span>';
+html2pdf().from(element).set(opt).save().then(() => {
+btn.innerHTML = originalText;
+}).catch(err => {
+console.error(err);
+btn.innerHTML = originalText;
+alert('حدث خطأ أثناء التنزيل، يرجى المحاولة مرة أخرى.');
+});
+}
+</script>
+</body>
+</html>
